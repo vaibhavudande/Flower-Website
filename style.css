@@ -80,6 +80,50 @@ nav h1 {
     display: none;
 }
 
+nav .login {
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 110%;
+    right: -500px;
+    transition: .4s;
+}
+
+nav .login h3 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+nav .login input {
+    margin: 5px 20px;
+    width: 200px;
+    padding: 5px 10px;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+nav .login button {
+    margin: 10px 80px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav .login.active {
+    transition: .4s;
+    right: 2rem;
+}
+
 /* Home */
 
 .banner {
