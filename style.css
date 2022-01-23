@@ -602,7 +602,7 @@ nav .login.active {
 
     #product {
         margin-top: 300px;
-        height: 110vh;
+        height: 310vh;
     }
 
     .review-row {
@@ -613,6 +613,7 @@ nav .login.active {
 
     #review {
         height: 100vh;
+        margin-top: 100px;
     }
 
     #contact {
@@ -702,11 +703,11 @@ nav .login.active {
 
     #product {
         margin-top: 300px;
-        height: 300vh;
+        height: 310vh;
     }
 
     #review {
-        margin-top: 100px;
+        margin-top: 300px;
         height: 120vh;
     }
 
